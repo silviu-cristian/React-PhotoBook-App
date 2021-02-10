@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import "materialize-css";
+import "./Components/Photos";
+
+import Appbar from "./Components/Navbar";
+import PublicGallery from "./Components/PublicGallery";
+import FooterWrapper from "./Components/Footer";
+import SwiperCarousel from "./Components/SwiperCarousel";
+import ScrollUpButton from "./Components/ScrollUpButton";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div className="container">
+        <ScrollUpButton />
+        <Appbar />
+        <SwiperCarousel />
+        <PublicGallery />
+        <FooterWrapper />
+      </div>
+    </React.Fragment>
   );
 }
 

@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: linear-gradient(to top, #4e4e4e 0%, #000 100%);
+}
+.page-footer {
+  background-color: #49494900;
+}
+#photoBookLogo {
+  width: 130px;
+  margin-left: 20px;
+  margin-bottom: -8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brand-logo img {
+  width: 130px;
+  margin-left: 20px;
+  margin-bottom: -8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+i.left {
+  margin-right: 4px;
+}
+nav {
+  background-image: linear-gradient(to top, #000 0%, #000 100%);
+}
+nav ul a {
+  padding: 0 10px;
+}
+nav ul a.log-in-button {
+  padding: 0 0 0 10px;
+}
+.swiper-container {
+  width: 100%;
+  height: 90vh;
+}
+.galleryTitle {
+  margin: 2.8rem 0 0.3rem 0;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.scrollUpButton i {
   color: white;
+  font-size: 4em;
+  -webkit-filter: drop-shadow(1px 1px 6px black);
+  -moz-filter: drop-shadow(1px 1px 6px black);
+  filter: drop-shadow(1px 1px 6px black);
+}
+.scrollUpButton i:hover {
+  -webkit-filter: drop-shadow(1px 1px 11px black);
+  -moz-filter: drop-shadow(1px 1px 11px black);
+  filter: drop-shadow(1px 1px 11px black);
 }
 
-.App-link {
-  color: #61dafb;
+.loadMoreBtnContainer {
+  margin-top: 10px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.loadMorePicsButton {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 1px 3px black);
+  -moz-filter: drop-shadow(1px 1px 3px black);
+  filter: drop-shadow(1px 1px 3px black);
+}
+
+a.loadMorePicsButton:hover {
+  -webkit-filter: drop-shadow(1px 1px 10px black);
+  -moz-filter: drop-shadow(1px 1px 10px black);
+  filter: drop-shadow(1px 1px 10px black);
+}
+
+.loadMorePicsIcon {
+  margin-right: 5px;
+}
+
+/* div.modal-content{
+  color: #000;
+} */
+.modal{
+  height: fit-content;
+  max-height: 90%;
+  max-width: 493px;
 }
