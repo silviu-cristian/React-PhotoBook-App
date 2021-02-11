@@ -1,11 +1,6 @@
-
-import ReactDOM from "react-dom";
-import React, { Component } from "react";
+import React from "react";
 import { Slider, Slide, Caption } from "react-materialize";
 import "materialize-css/dist/css/materialize.min.css";
-
-
-
 
 
 function StorySlider() {
@@ -19,7 +14,6 @@ function StorySlider() {
     indicators: true,
     interval: 6000
   }}
-  
 >
   <Slide image={<img alt="" src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"/>}>
     <Caption placement="center">
@@ -62,7 +56,6 @@ function StorySlider() {
     </Caption>
   </Slide>
 </Slider>
-
 );
 }
 

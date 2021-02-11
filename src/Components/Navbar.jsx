@@ -1,5 +1,4 @@
-import ReactDOM from "react-dom";
-import React, { Component } from "react";
+import React from "react";
 import { Navbar, NavItem, Icon } from "react-materialize";
 import "materialize-css/dist/css/materialize.min.css";
 import LogoWhite from "../Media/LogoWhite.png";
@@ -36,10 +35,6 @@ function Appbar() {
             <Icon left>home</Icon>
           </NavItem>
           <ContactForm />
-          {/* <NavItem href="get-started.html">
-            Contact
-            <Icon left>mail_outline</Icon>
-          </NavItem> */}
           <NavItem href="get-started.html">
             Gallery
             <Icon left>photo</Icon>

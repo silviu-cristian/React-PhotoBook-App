@@ -1,6 +1,4 @@
 import React, { useState, useCallback } from "react";
-
-import { render } from "react-dom";
 import { Icon } from "react-materialize";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
