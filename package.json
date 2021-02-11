@@ -6,6 +6,9 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "firebase": "^8.2.6",
+    "framer-motion": "^3.3.0",
+    "gh-pages": "^3.1.0",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -20,7 +23,10 @@
     "swiper": "^6.4.11",
     "web-vitals": "^1.1.0"
   },
+  "homepage": "https://silviu-cristian.github.io/React-PhotoBook-App",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
