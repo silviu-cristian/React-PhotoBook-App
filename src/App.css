@@ -95,3 +95,26 @@ a.loadMorePicsButton:hover {
   max-height: 90%;
   max-width: 493px;
 }
+.slider{
+  height: 87vh;
+}
+.slider .slides{
+  height: 87vh;
+  background-position: center;
+  background-size: cover;
+}
+.indicators{
+  z-index: 5;
+}
+.slider .indicators .indicator-item{
+  height: 6px;
+  width: 6px;
+  margin: 0 4px;
+  background-color: rgb(108, 197, 108);
+}
+.slider .indicators .indicator-item.active{
+  height: 10px;
+  width: 10px;
+  margin: 0 6px;
+  background-color: #fff;
+}

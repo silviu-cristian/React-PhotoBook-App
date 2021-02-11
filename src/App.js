@@ -6,8 +6,9 @@ import "./Components/Photos";
 import Appbar from "./Components/Navbar";
 import PublicGallery from "./Components/PublicGallery";
 import FooterWrapper from "./Components/Footer";
-import SwiperCarousel from "./Components/SwiperCarousel";
+//import SwiperCarousel from "./Components/SwiperCarousel";
 import ScrollUpButton from "./Components/ScrollUpButton";
+import StorySlider from "./Components/StorySlider";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <div className="container">
         <ScrollUpButton />
         <Appbar />
-        <SwiperCarousel />
+        <StorySlider />
+        {/* <SwiperCarousel /> */}
         <PublicGallery />
         <FooterWrapper />
       </div>
